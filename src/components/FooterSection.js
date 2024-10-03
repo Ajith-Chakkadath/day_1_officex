@@ -5,10 +5,10 @@ const FooterSection = () => {
   return (
     
         <section className='container mx-auto mt-[100px]' >
-<h1 className='text-[320px] text-center font-bold'>Officex</h1>
+<h1 className='text-[90px] text-center font-bold lg:text-[320px] md:text-[160px] sm:text-[120px]'>Officex</h1>
 
-<div className='mt-[50px] grid grid-cols-2 mb-[50px]'>
-<div>
+<div className='mt-[50px] grid grid-cols-1 sm:grid-cols-2 mb-[50px]'>
+<div className='mb-2 md:mb-0'>
     <h1 className='text-2xl font-bold'>Subscribe to our <br></br> Newsletter</h1>
     <div className='mt-[20px] flex justify-between items-center w-2/6' >
     <h1>Your Email</h1>
@@ -18,7 +18,7 @@ const FooterSection = () => {
     <div className='h-[1px] bg-slate-500 w-2/6'></div>   
 </div>
 
-<div className='flex justify-end gap-5'>
+<div className='flex justify-start md:justify-end gap-5'>
     <div>
         <h2 className='text-2xl text-slate-300'>About</h2>
         <ul>
@@ -43,7 +43,7 @@ const FooterSection = () => {
             <li className='text-md'>New York</li>
             <li className='text-md'>Chicogo</li>
             <li className='text-md'>Los angles</li>
-            <li className='text-md'>SansFrancio</li>
+            <li className='text-md'>San</li>
         </ul>
     </div>
 </div>
