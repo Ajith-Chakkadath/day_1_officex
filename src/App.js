@@ -4,6 +4,8 @@ import Herosection from './components/Herosection';
 import LocationSection from './components/LocationSection';
 import SizeSection from './components/SizeSection';
 import TestimonialSection from './components/TestimonialSection';
+import DeskSection from './components/DeskSection';
+import FooterSection from './components/FooterSection';
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
    <LocationSection />
    <SizeSection />
    <TestimonialSection />
+   <DeskSection />
+   <FooterSection />
     </div>
   );
 }
